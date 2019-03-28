@@ -16,7 +16,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
         }
     />
 );
-
+//stateless components não vai mudar o status
 const Routes = () => (
     <BrowserRouter>
         <Switch>
